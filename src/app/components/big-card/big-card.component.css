@@ -1,61 +1,66 @@
-.card{
+.card {
   height: 100%;
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
   max-height: 400px;
+
 }
 
-.container_big-card{
-  border: solid white 2px;
-  width: 450px;
-  height: 600px;
+.container_big-card {
+  max-width: 450px;
+  max-height: 650px;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 25px;
-  margin-left: 12rem;
+  margin: 0 5rem;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .big-card_title {
-  margin: 10px;
+  margin: 1.5rem;
 }
 
 
-.big-card_title > h1 {
+.big-card_title>h1 {
   text-align: start;
-  font-size: 23px;
+  font-size: 160%;
 }
 
-.big-card_description{
-  margin: 5px;
+.big-card_description {
+  margin: 0.5rem;
 }
 
-.big-card_description > p {
-  text-align: start;
-  font-size: 15px;
-  margin: 5px;
+.big-card_description>p {
+  text-align: left;
+  font-size: 100%;
+  margin: 15px;
+  color:rgba(255, 255, 255, 0.582);
 }
 
-.big-card-button{
+.card, .container_big-card, .big-card_title, .big-card_description, h1, p, img, .big-card-button {
+  background-color: #1D1E1F !important;
+  border-radius: 20px;
+}
+
+.big-card-button {
   margin: 15px;
   padding: 10px;
 }
 
-.big-card-button > a ,button {
+.big-card-button>a, button {
   background-color: #FFE919;
   color: black;
   border-radius: 27px;
-  width: 170px;
-  height: 50px;
+  width: 10rem;
+  height: 2.5rem;
   font-size: small;
 }
 
-.big-card-button  :hover{
+.big-card-button :hover {
   background-color: #F8E218;
-  width: 180px;
-  height: 60px;
+  width: 11rem;
+  height: 3rem;
   border-radius: 30px;
 }
-
-
-

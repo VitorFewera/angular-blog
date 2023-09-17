@@ -1,12 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 *{
   margin: 0;
-  background-color: #000000;
+  background-color: #1B2731;
   padding: 0;
   box-sizing: border-box;
   color: white;
   font-family:'DINNext', 'Matterhorn', Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
-
+  border: none !important;
 }
