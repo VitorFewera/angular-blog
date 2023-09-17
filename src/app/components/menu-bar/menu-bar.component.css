@@ -1,0 +1,31 @@
+.container_menu-bar{
+  width: 900px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.container_menu-bar > ul > li {
+  list-style: none;
+}
+
+.line_menu-bar{
+  display: flex;
+  flex-direction: row;
+}
+
+.line_menu-bar > li , a{
+  margin-left: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.line_menu-bar> li > a {
+  color: rgba(255, 255, 255, 0.582);
+}
+
+.line_menu-bar> li  :hover{
+  color: white;
+  font-weight: 700;
+}
+

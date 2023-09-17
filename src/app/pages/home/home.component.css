@@ -1,0 +1,24 @@
+.articles_container{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.articles_others{
+  margin-left: 100px;
+}
+
+header{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.linha-horizontal {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.582);
+  width: 100%;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,31 @@
+.containaer_small-card {
+  border: solid white 2px;
+  padding: 10px;
+  max-width: 900px;
+  max-height: 200px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card_photo {
+  max-width: 400px;
+  max-height: 200px;
+}
+
+.small-card_photo>img {
+  width: 100%;
+  height: 100%;
+}
+
+.small-card_title {
+  margin-left: 10px;
+  font-size: 10px;
+  display: flex;
+  align-items: start;
+}
+
+.small-card_subtitle{
+
+}
