@@ -3,7 +3,6 @@
   width: 100%;
   max-width: 450px;
   max-height: 400px;
-
 }
 
 .container_big-card {
@@ -36,7 +35,7 @@
   text-align: left;
   font-size: 100%;
   margin: 15px;
-  color:rgba(255, 255, 255, 0.582);
+  color: rgba(255, 255, 255, 0.582);
 }
 
 .card, .container_big-card, .big-card_title, .big-card_description, h1, p, img, .big-card-button {
@@ -47,6 +46,8 @@
 .big-card-button {
   margin: 15px;
   padding: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .big-card-button>a, button {
